@@ -1,0 +1,3 @@
+/Users/masa/git/C-practice/CMakeFiles/rebuild_cache.dir
+/Users/masa/git/C-practice/CMakeFiles/edit_cache.dir
+/Users/masa/git/C-practice/CMakeFiles/target/lesson1.dir

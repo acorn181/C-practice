@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/masa/git/C-practice/src/calc.c
+stdio.h
+-
+calc.h
+/Users/masa/git/C-practice/src/calc.h
+
+/Users/masa/git/C-practice/src/calc.h
+
+/Users/masa/git/C-practice/src/main1.c
+stdio.h
+-
+string.h
+-
+calc.h
+/Users/masa/git/C-practice/src/calc.h
+
