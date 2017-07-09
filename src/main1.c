@@ -5,22 +5,22 @@
 
 int main() {
     
-    unsigned int *kokugo;
-    unsigned int *shakai;
-    unsigned int *rika;
+    unsigned int kokugo;
+    unsigned int shakai;
+    unsigned int rika;
 
-    unsigned int sum;
-    unsigned int avg;
+    unsigned int sum1;
+    unsigned int avg1;
 
     printf("国語の点数は: ");
-    scanf("%d", kokugo);
+    scanf("%d", &kokugo);
     printf("社会の点数は: ");
-    scanf("%d", shakai);
+    scanf("%d", &shakai);
     printf("理科の点数は: ");
-    scanf("%d", rika);
+    scanf("%d", &rika);
 
-    sum = sum(kokugo, shakai, rika);
-    avg = avg(kokugo, shakai, rika);
+    sum1 = sum(kokugo, shakai, rika);
+    avg1 = avg(kokugo, shakai, rika);
 
-    printf("合計点：'%d' 平均点：'%d' です", sum, avg);
+    printf("合計点：'%d' 平均点：'%d' です\n", sum1, avg1);
 }
